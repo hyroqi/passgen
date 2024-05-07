@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Karla-ExtraBold';
+    src: url('fonts/Karla-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Karla-Medium';
+    src: url('fonts/Karla-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #1F2937;
+    color: white;
+    margin: 20vh 10vw;
+    font-family: 'Karla-ExtraBold';
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-family: Karla-Medium;
+    margin: 10px 0 30px 0;
+}
+
+#greentext {
+    color: #4ADF86;
+}
+
+.hero{
+    
+}
+
+button {
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #10B981;
+    color: white;
+    transition: all 0.2s;
+    font-family: 'Karla-Medium'
+}
+
+button:hover {
+    background-color: #0d855d;
+}
+
+.pw-container{
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pw-container p{
+    /* border: 2px solid white; */
+    font-family: 'Karla-Medium';
+    width: auto;
+    height: 20px;
+    padding: 8px 50px;
+    border-radius: 6px;
+    background-color: #273549;
+    text-align: center;
+}
